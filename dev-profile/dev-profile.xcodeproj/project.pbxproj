@@ -12,6 +12,7 @@
 		A1917B2B1F3C79EA00ADC965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1917B291F3C79EA00ADC965 /* Main.storyboard */; };
 		A1917B2D1F3C79EA00ADC965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1917B2C1F3C79EA00ADC965 /* Assets.xcassets */; };
 		A1917B301F3C79EA00ADC965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1917B2E1F3C79EA00ADC965 /* LaunchScreen.storyboard */; };
+		A1F45EEA1F3CAD8000F1233D /* Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F45EE91F3CAD8000F1233D /* Curve.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A1917B2C1F3C79EA00ADC965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1917B2F1F3C79EA00ADC965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1917B311F3C79EA00ADC965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F45EE91F3CAD8000F1233D /* Curve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curve.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		A1917B191F3C79EA00ADC965 = {
 			isa = PBXGroup;
 			children = (
+				A1F45EE81F3CAD3D00F1233D /* View */,
 				A1917B241F3C79EA00ADC965 /* dev-profile */,
 				A1917B231F3C79EA00ADC965 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				A1917B311F3C79EA00ADC965 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		A1F45EE81F3CAD3D00F1233D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1F45EE91F3CAD8000F1233D /* Curve.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1917B281F3C79EA00ADC965 /* ViewController.swift in Sources */,
+				A1F45EEA1F3CAD8000F1233D /* Curve.swift in Sources */,
 				A1917B261F3C79EA00ADC965 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

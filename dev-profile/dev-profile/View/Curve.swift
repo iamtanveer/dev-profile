@@ -7,10 +7,19 @@
 //
 
 import UIKit
+@IBDesignable
 
 class Curve: UIImageView {
+    
+    override func prepareForInterfaceBuilder() {
+        customizeView()
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
+        customizeView()
+    }
+    
+    func customizeView(){
         layer.cornerRadius = 7.0
         layer.masksToBounds = true
     }
